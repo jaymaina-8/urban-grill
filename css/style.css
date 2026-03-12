@@ -30,6 +30,22 @@
 }
 
 
+/*** Hero Plate Rotation Animation ***/
+@keyframes rotateHero {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hero-rotate {
+    animation: rotateHero 6s linear infinite;
+    transform-origin: center;
+}
+
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
