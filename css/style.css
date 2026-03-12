@@ -41,7 +41,7 @@
 }
 
 .hero-rotate {
-    animation: rotateHero 6s linear infinite;
+    animation: rotateHero 12s linear infinite;
     transform-origin: center;
 }
 
